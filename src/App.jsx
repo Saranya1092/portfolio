@@ -38,7 +38,7 @@ function Navbar({ darkMode, setDarkMode }) {
   return (
     <header className="navbar">
       <div className="navbar-left">
-        <span className="logo">Manobala S</span>
+        <span className="logo">Saranya K</span>
         <span className="role-tag">Software Engineer (Aspiring)</span>
       </div>
       <nav className="navbar-links">
@@ -72,17 +72,17 @@ function Home() {
         <div className="hero-text">
           <p className="hero-eyebrow">Hello, I’m</p>
           <h1 className="hero-title">
-            Manobala<span className="hero-title-accent"> S</span>
+            SARANYA <span className="hero-title-accent"> K</span>
           </h1>
           <h2 className="hero-subtitle">Aspiring Software Engineer</h2>
           <p className="hero-description">
-            I’m an Integrated M.Tech Software Engineering student at VIT Vellore (CGPA 8.4, batch 2027),
+            I’m an Integrated M.Tech Software Engineering student at VIT Vellore (CGPA 7.93, batch 2027),
             building modern web applications with React, JavaScript, and strong fundamentals in software engineering.
           </p>
 
           <div className="hero-buttons">
             <a
-              href="https://drive.google.com/file/d/1B0HVAnI4L3NdmkFU4xEfrdl2oFekNOgW/view?usp=share_link"
+              href="https://drive.google.com/file/d/1aVAbQGX6oNLJ90d82pirj-u9aRNNjk0Z/view?usp=drivesdk"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -96,8 +96,8 @@ function Home() {
 
           <div className="hero-info">
             <span>📍 Gudiyatham, Vellore – 632602</span>
-            <span>📞 9626488199</span>
-            <span>📧 shankarmanogym@gmail.com</span>
+            <span>📞 8072686622</span>
+            <span>📧 saranyakumaravel2903@gmail.com</span>
           </div>
         </div>
 
@@ -112,18 +112,18 @@ function Home() {
     <p className="hero-card-text">
       Integrated M.Tech in Software Engineering<br />
       <span className="hero-highlight">
-        VIT Vellore • CGPA: 8.4 • Graduation: 2027
+        VIT Vellore • CGPA: 7.93 • Graduation: 2027
       </span>
     </p>
 
     <p className="hero-card-heading">GitHub</p>
     <a
-      href="https://github.com/Mano-8055"
+      href="https://github.com/Saranya1092"
       target="_blank"
       rel="noreferrer"
       className="hero-link"
     >
-      github.com/Mano-8055
+      github.com/Saranya1092
     </a>
   </div>
 </motion.div>
@@ -147,7 +147,7 @@ function Projects() {
         setError("");
 
         const res = await fetch(
-          "https://api.github.com/users/Mano-8055/repos?sort=created&direction=desc"
+          "https://api.github.com/users/Saranya1092/repos?sort=created&direction=desc"
         );
 
         if (!res.ok) {
@@ -254,7 +254,8 @@ function Skills() {
     { category: "Web Development", items: "HTML, CSS, JavaScript, React, PHP" },
     { category: "Databases", items: "MySQL, MongoDB" },
     { category: "Tools", items: "Git, VS Code, Figma" },
-    { category: "Soft Skills", items: "Communication, Teamwork" }
+    { category: "Soft Skills", items: "Communication, Teamwork" },
+    { category: "Currently Learning", items:"Freelancing & Exploring many clients: " }
   ];
 
   return (
@@ -300,17 +301,17 @@ function Certifications() {
         <h3 className="card-title">Fundamentals of Deep Learning – NVIDIA</h3>
         <p className="card-desc">Issued: September 22, 2025</p>
         <p className="card-desc">
-          Certification IDs: TOt4sbDURj-z5dlIvsIlNQ / 1tO0Ys3ITkGJkXM3sgBKrQ
+          Certification IDs: hG42grVBTBGXuubPn7YxVA
         </p>
-        <a className="card-link" href="https://drive.google.com/file/d/179mDybl6HvDQ857jLs_Usb1ZiGevphRA/view?usp=drivesdk" target="_blank" rel="noreferrer">View Certificate</a>
+        <a className="card-link" href="https://drive.google.com/file/d/12NNYrNHS7KYJ0DPIG0bCdMtkBJ1U4zQC/view?usp=drivesdk" target="_blank" rel="noreferrer">View Certificate</a>
       </div>
       <div className="card card-cert">
-        <h3 className="card-title">Learn React - SCRIMBA</h3>
-        <p className="card-desc">Issued: February 04, 2026</p>
+        <h3 className="card-title">Introduction to Artificial Intelligence</h3>
+        <p className="card-desc">Issued: july 20, 2024</p>
         <p className="card-desc">
-          Certification IDs: VTLO18RT2L44
+          Certification IDs: W6XUBFZ7PBEX
         </p>
-        <a className="card-link" href="https://drive.google.com/file/d/1DUIXY6gv35V4ttmdETDOSv7lE3_ir5hx/view?usp=drivesdk" target="_blank" rel="noreferrer">View Certificate</a>
+        <a className="card-link" href="https://drive.google.com/file/d/1ZgZR999HqV__CRpIXht_s40zPK1jxcYn/view?usp=drivesdk" target="_blank" rel="noreferrer">View Certificate</a>
       </div>
     </motion.section>
   );
@@ -325,10 +326,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_jh1mgvn",    // 👈 Service ID (string)
-        "template_xy8ra8e",   // 👈 Template ID (string)
+        "service_bhscrzi",    // 👈 Service ID (string)
+        "template_6yu8j7b",   // 👈 Template ID (string)
         e.target,
-        "crw0OW6hsz2xKetZA"   // 👈 Public key (string)
+        "QPWUFb6g6zijIyHsa"   // 👈 Public key (string)
       )
       .then(
         (result) => {
@@ -365,12 +366,12 @@ function Contact() {
             collaborations on interesting tech ideas.
           </p>
           <ul className="contact-info">
-            <li>📧 <a href="mailto:shankarmanogym@gmail.com">shankarmanogym@gmail.com</a></li>
-            <li>📞 9626488199</li>
+            <li>📧 <a href="mailto:saranyakumaravel2903@gmail.com">saranyakumaravel2903@gmail.com</a></li>
+            <li>📞 8072686622</li>
             <li>📍 Gudiyatham, Vellore – 632602</li>
             <li>
-              🐙 <a href="https://github.com/Mano-8055" target="_blank" rel="noreferrer">
-                github.com/Mano-8055
+              🐙 <a href="https://github.com/Saranya1092" target="_blank" rel="noreferrer">
+                github.com/Saranya1092
               </a>
             </li>
           </ul>
@@ -402,7 +403,7 @@ function Contact() {
 function Footer() {
   return (
     <footer className="footer">
-      <span>© {new Date().getFullYear()} Manobala S</span>
+      <span>© {new Date().getFullYear()} Saranya Kumaravel</span>
       <span className="footer-divider">•</span>
       <span>Built with React & Framer Motion</span>
     </footer>
