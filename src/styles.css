@@ -1,4 +1,4 @@
-]/* GLOBAL RESET + VARIABLES */
+/* GLOBAL RESET + VARIABLES */
 
 *,
 *::before,
@@ -36,15 +36,54 @@ body {
 
 /* THEME BACKGROUNDS */
 
-.dark-body {
-  background: radial-gradient(circle at top, #111827 0, #020617 45%, #000 100%);
+/* .dark-body {
+  background: linear-gradient(
+    135deg,
+    #1e40af 0%,
+    #020617 55%,
+    #020617 100%
+  );
   color: var(--text-main-dark);
+} */
+
+
+.dark-body {
+  background: linear-gradient(
+    120deg,
+    #020617,
+    #020617,
+    #1e3a8a,
+    #020617
+  );
+  background-size: 300% 300%;
+  animation: gradientMove 18s ease infinite;
 }
 
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+
+
+
+
+
+
 .light-body {
-  background: radial-gradient(circle at top, #e0f2fe 0, #f4f4ff 40%, #f9fafb 100%);
+  background: linear-gradient(
+    180deg,
+    #fff7ed 0%,
+    #ffedd5 40%,
+    #ffffff 100%
+  );
   color: var(--text-main-light);
 }
+
+
+
 
 /* APP LAYOUT */
 
