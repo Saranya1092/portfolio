@@ -36,18 +36,24 @@ body {
 
 /* THEME BACKGROUNDS */
 
-/* .dark-body {
-  background: linear-gradient(
-    135deg,
-    #1e40af 0%,
-    #020617 55%,
-    #020617 100%
-  );
-  color: var(--text-main-dark);
-} */
-
-
 .dark-body {
+  background: radial-gradient(
+      circle at 20% 30%,
+      rgba(59,130,246,0.25),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(168,85,247,0.25),
+      transparent 40%
+    ),
+    #020617;
+  color: var(--text-main-dark);
+}
+
+
+
+/* .dark-body {
   background: linear-gradient(
     120deg,
     #020617,
@@ -63,7 +69,7 @@ body {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
-}
+} */
 
 
 
