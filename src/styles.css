@@ -78,7 +78,7 @@ body {
 
 
 
-.light-body {
+/* .light-body {
   background: linear-gradient(
     180deg,
     #fff7ed 0%,
@@ -86,7 +86,18 @@ body {
     #ffffff 100%
   );
   color: var(--text-main-light);
+} */
+
+.light-body {
+  background: linear-gradient(
+    140deg,
+    #fdf6ec 0%,
+    #fef3e2 50%,
+    #ffffff 100%
+  );
+  color: var(--text-main-light);
 }
+
 
 
 
